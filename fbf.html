@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<table width="50%" align="center" style="background: lightgreen;">
+		<tr>
+		 <td colspan="2" style="border: double;border-radius: 10px; background: mintcream; text-align: center; font-size: 300%; color: green; padding-top: 5px; padding-bottom: 5px;">
+		 	Feedback Form
+		 </td>
+		</tr>
+		<form>
+		<tr>
+			<td style="text-align:justify; padding-left: 53px; padding-top:35px; width: 23%;">
+				<label for="sm">To:</label>
+			</td>
+			<td style="padding-top:30px;">
+		    <input list="whom">
+		    <datalist id="whom">
+	             <option value="Principal">
+		         <option value="Manager">
+                 <option value="Trainer">
+	        </datalist>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:justify;padding-left: 53px;"><lable>Name:</lable></td>
+			<td><input type="name" name="nm" id="nm" placeholder="Enter Full Name." style="width: 87%;"></td>
+		</tr>
+		<tr>
+		    <td style="text-align:justify; padding-left: 53px;"><label for="em">Email:</label></td>
+			<td><input type="email" name="em" id="em" placeholder="sample@example.com" style="width:87%"></td>
+		</tr>
+		<tr>
+			<td style="text-align:justify;padding-left: 53px; padding-bottom: 47px;"><label for="fb">Feedback:</label></td>
+			<td><textarea id="msg" placeholder="Please type your comment." rows="3" cols="60"></textarea></td>
+		</tr>
+			<td colspan="2" style="text-align:center; padding-right: 85px; padding-bottom: 5px; padding-left:55px">
+			<input type="submit" value="Submit" style="height: 25px;">
+		    </td>
+		</tr>
+    	</form>
+	</table>
+</body>
+</html>
